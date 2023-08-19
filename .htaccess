@@ -1,0 +1,14 @@
+## Como ativar o certificado SSL no servidor WampServer
+## https://www.vivodecodigo.com.br/internet/como-ativar-o-https-ssl-no-servidor-wampserver-3-2-0/
+## Impedir que pastas sejam acessadas diretamente
+RewriteEngine On
+Options All -Indexes
+
+## ROUTER WWW Redirect - Redirecionar rotas para WWW
+#RewriteCond %{HTTP_HOST} !^www\. [NC]
+#RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+## ROUTER HTTPS Redirect - Redirecionar rotas para HTTPS
+#RewriteCond %{HTTP:X-Forwarded-Proto} !https
+#RewriteCond %{HTTPS} off
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

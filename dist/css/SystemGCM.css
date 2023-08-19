@@ -1,0 +1,47 @@
+/*!
+ *  SystemGCM
+ *  Author : Isaque M. Ribeiro
+ *  E-mail : isaque.ribeiro@outlook.com
+ */
+
+/*
+ * Core: General Layout Style
+ * -------------------------
+ */
+
+.padding-label {
+    padding-left : 2px; 
+    padding-right: 10px;
+}
+
+.padding-field {
+    padding-left : 2px; 
+    padding-right: 2px;
+}
+
+.padding-field-3 {
+    padding-left : 3px; 
+    padding-right: 3px;
+}
+
+.padding-panel {
+    padding-left : 1px; 
+    padding-right: 1px;
+}
+
+.padding-panel-1 {
+    padding : 1px; 
+}
+
+.div-espacamento-1px {
+  padding: 1px;
+}
+
+.div-margem-1px {
+  margin: 1px;
+}
+
+/* Centralizar na verticação as células de tabelas renderizadas pela classe "dataTable()"*/
+table.dataTable tbody td {
+    vertical-align: middle;
+}            

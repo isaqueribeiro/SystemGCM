@@ -1,0 +1,14 @@
+*.DS_Store
+*.log
+*.zip
+*.bat
+.idea
+.sass-cache/
+/nbproject/*
+/nbproject/private/
+/node_modules/
+ad.js
+TODO
+test.html
+/logs/cookies/*.json
+/logs/json/*.json
